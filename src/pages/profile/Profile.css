@@ -1,0 +1,126 @@
+.main-profile {
+    flex: 1;
+    padding-bottom: 5rem;
+  }
+  
+  .bg-profile {
+    background-color: #dfe6ed;
+  }
+
+  .header {
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  .input-wrapper label {
+    font-weight: bold;
+  }
+  
+  .input-wrapper input {
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+
+  .sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important; /* 2 */
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important; /* 3 */
+  }
+
+  .account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #c3cfd9;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .account-amount {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .account-amount-description {
+    margin: 0;
+  }
+  
+  .account-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .account-content-wrapper {
+    width: 100%;
+    flex: 1;
+  }
+
+  .transaction-button {
+    display: block;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: #6458f5;
+    background-color: #6458f5;
+    color: #fff;
+  }
+
+  .profile-title {
+    color: black;
+    margin: 0;
+    padding-top: 2rem;
+  }
+  
+  .title-name {
+    color: black;
+    margin-bottom: 0 0 1rem 0;
+  }
+
+  .edit-button {
+    border-color: #b3b3f0;
+    background-color: white;
+    color: #6458f5;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 8rem;
+    margin: 1rem 0.5rem 0 0.5rem;
+  }
+
+  .buttons {
+      margin: 1rem 0 1rem 0;
+    }
+
+  .input {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 12rem;
+    height: 2rem;
+    }
+  .inputs {
+    margin: 1rem 0 1rem 0;
+    }
